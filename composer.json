@@ -1,0 +1,25 @@
+{
+    "name": "rezgui/wn-jobs-plugin",
+    "type": "winter-plugin",
+    "description": "Showcase vacancies and job openings for WinterCMS",
+    "keywords": ["winter", "cms", "vacancies", "job", "careers", "extension", "plugin"],
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "UpTop Creative Agency (Rebel59)",
+          "email": "info@uptop.nl"
+        },
+        {
+            "name": "Yacine REZGUI",
+            "email": "yacine.rezgui@gmail.com",
+            "role": "Maintainer"
+        }      
+    ],
+    "extra": {
+        "installer-name": "jobs",
+        "winter": {
+            "name": "Jobs",
+            "categories": ["Extension"]
+        }
+    }
+  }
