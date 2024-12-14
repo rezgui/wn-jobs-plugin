@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Job
+
+# Model Form Field configuration
+form: $/rezgui/jobs/models/job/fields.yaml
+
+# Model Class name
+modelClass: Rezgui\Jobs\Models\Job
+
+# Default redirect location
+defaultRedirect: rezgui/jobs/jobs
+
+# Create page
+create:
+    title: Create Job
+    redirect: rezgui/jobs/jobs/update/:id
+    redirectClose: rezgui/jobs/jobs
+
+# Update page
+update:
+    title: Edit Job
+    redirect: rezgui/jobs/jobs
+    redirectClose: rezgui/jobs/jobs
+
+# Preview page
+preview:
+    title: Preview Job

@@ -1,0 +1,6 @@
+1.0.0:
+- First version of Jobs
+- create_jobs_table.php
+1.0.1:
+- Migrate to WinterCMS
+- Add French

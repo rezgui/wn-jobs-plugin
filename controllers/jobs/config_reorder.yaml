@@ -1,0 +1,17 @@
+# ===================================
+#  Reorder Behavior Config
+# ===================================
+
+# Reorder Title
+title: rezgui.jobs::lang.models.reorder_title
+
+# Attribute name
+nameFrom: function
+
+# Model Class name
+modelClass: Rezgui\Jobs\Models\Job
+
+# Toolbar widget configuration
+toolbar:
+    # Partial for toolbar buttons
+    buttons: reorder_toolbar

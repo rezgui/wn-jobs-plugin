@@ -1,0 +1,53 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+tabs:
+    fields:
+        title:
+            label: rezgui.jobs::lang.models.job.title
+            span: left
+            tab: Job
+        function:
+            label: rezgui.jobs::lang.models.job.function
+            span: right
+            tab: Job
+        description:
+            label: rezgui.jobs::lang.models.job.description
+            type: textarea
+            tab: Job
+        published:
+            label: rezgui.jobs::lang.models.job.published
+            type: switch
+            span: left
+            tab: Job
+        published_at:
+            default: now
+            type: datepicker
+            mode: datetime
+            trigger:
+                action: enable
+                field: published
+                condition: checked
+            span: right
+            tab: Job
+        cover:
+            label: rezgui.jobs::lang.models.job.cover
+            type: mediafinder
+            mode: image
+            span: left
+            tab: Job
+        avatar:
+            label: rezgui.jobs::lang.models.job.avatar
+            type: mediafinder
+            mode: image
+            span: right
+            tab: Job
+        button_text:
+            label: rezgui.jobs::lang.models.job.button_text
+            span: left
+            tab: Button
+        button_url:
+            label: rezgui.jobs::lang.models.job.button_text
+            span: left
+            tab: Button
+
